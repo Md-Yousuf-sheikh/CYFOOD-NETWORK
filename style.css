@@ -23,13 +23,13 @@ body{
     padding-top: 15px;
 }
 #headerSection {
-    box-shadow: 0px 0px 70px #ddd;
+    box-shadow: 0px 0px 70px #a4a4a4;
     padding-bottom: 20px;
     width: 100%;
     height: 60px;
     position: sticky;
     top: 0px;
-    background: #ffff;
+    background: #fff;
 }
 .mainMenu{
     display: flex;
@@ -220,13 +220,86 @@ body{
 
 }
 .socallink h1 {
-  font-size: 35px;
-  color: greenyellow;
-  line-height: 66px;
+    font-size: 35px;
+    color: greenyellow;
+    line-height: 66px;
 }
 .socallink h1 span {
     color: #484747;
-  }
+}
+/* ======================= */
+/*====== FooterSetion ======*/
+/* ======================= */
+#ContentSection{
+    background: #74ac4d;
+}
+#ContentSection{
+    text-align: center;
+}.ContentTitle{
+    color: #000;
+    padding: 45px 0px;
+    font-size: 35px;
+}
+.ConFoMain{
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.contentForm{
+    width: 50%;
+    display: inline-block;
+}
+
+
+#fullName {
+    width: 250px;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+#gmail {
+    width: 250px;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+#textarea {
+    width: 500px;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.ContactInfo{
+    width: 50%;
+}
+.ContactInfo h1 {
+    font-size: 25px;
+    color: orangered;
+    padding: 20px 0px;
+}
+.ContactInfo span{
+    color: #fff;
+}
+
+.ContactInfo a {
+    text-decoration: none;
+    color: #fff;
+}
+.ContactInfo ul {
+    padding: 18px;
+}
+.ContactInfo ul li {
+    line-height: 29px;
+    color: #fff;
+    list-style: none;
+}
 /* ======================= */
 /*====== FooterSetion ======*/
 /* ======================= */
