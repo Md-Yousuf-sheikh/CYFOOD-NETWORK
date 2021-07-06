@@ -5,6 +5,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
+    transition:0.05s all ease-in-out;
 }
 .orangColor{
     color:#ff4500cc;
@@ -96,15 +97,16 @@ body{
     margin-top: 27px;
 }
 
-.homeSection button {
+.homeSection .button {
     border: none;
     border-radius: 50px;
     background: linear-gradient(orangered, orange);
     font-size: 17px;
     color: #fff;
+    text-decoration: none;
     padding: 16px 50px;
-    margin: 50px 0px;
     box-shadow: 4px 5px 16px #ff4500c4;
+    line-height: 120px;
 }
 .homeSection img{
     width: 100%;
@@ -150,9 +152,10 @@ body{
     border: none;
     color: #fff;
     background: linear-gradient(orangered, orange);
-    margin-top: 75px;
     font-size: 16px;
     box-shadow: 5px 5px 10px orange;
+    text-decoration: none;
+    line-height: 138px;
 }
 
 /* ======================= */
