@@ -5,13 +5,15 @@
     padding: 0%;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    transition:0.05s all ease-in-out;
+    transition:0.5s;
+    -moz-transition:0.5s;
 }
 .orangColor{
     color:#ff4500cc;
 }
 body{
     background-color:#fff;
+    transition:0.5s;
 }
 .Container{
     display:flex;
@@ -154,8 +156,8 @@ body{
     background: linear-gradient(orangered, orange);
     font-size: 16px;
     box-shadow: 5px 5px 10px orange;
+    line-height: 150px;
     text-decoration: none;
-    line-height: 138px;
 }
 
 /* ======================= */
@@ -234,12 +236,12 @@ body{
 /*====== FooterSetion ======*/
 /* ======================= */
 #ContentSection{
-    background: #74ac4d;
+    background: linear-gradient(orangered, orange);
 }
 #ContentSection{
     text-align: center;
 }.ContentTitle{
-    color: #000;
+    color: #fff;
     padding: 45px 0px;
     font-size: 35px;
 }
@@ -255,7 +257,7 @@ body{
 
 
 #fullName {
-    width: 250px;
+    width: 100%;
     border: none;
     padding: 15px 10px;
     border-radius: 5px;
@@ -263,7 +265,7 @@ body{
     outline: none;
 }
 #gmail {
-    width: 250px;
+    width: 100%;
     border: none;
     padding: 15px 10px;
     border-radius: 5px;
@@ -271,7 +273,7 @@ body{
     outline: none;
 }
 #textarea {
-    width: 500px;
+    width: 100%;
     border: none;
     padding: 15px 10px;
     border-radius: 5px;
@@ -284,7 +286,7 @@ body{
 }
 .ContactInfo h1 {
     font-size: 25px;
-    color: orangered;
+    color: black;
     padding: 20px 0px;
 }
 .ContactInfo span{
@@ -294,6 +296,7 @@ body{
 .ContactInfo a {
     text-decoration: none;
     color: #fff;
+    line-height: 29px;
 }
 .ContactInfo ul {
     padding: 18px;
@@ -302,6 +305,16 @@ body{
     line-height: 29px;
     color: #fff;
     list-style: none;
+}
+
+#submitBtn {
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    background: linear-gradient(#00ff28, #f5f6f7);
 }
 /* ======================= */
 /*====== FooterSetion ======*/
